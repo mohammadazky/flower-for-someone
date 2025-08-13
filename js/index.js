@@ -27,7 +27,7 @@ let audio;
 
 function playMusic() {
   if (!audio) {
-    audio = new Audio("lagu.mp3"); // ganti sama file musik kamu
+    audio = new Audio("audio/lagu.mp3"); // ganti sama file musik kamu
     audio.loop = true;
     audio.volume = 0.6;
     audio.currentTime = sessionStorage.getItem("musicTime") || 0;
