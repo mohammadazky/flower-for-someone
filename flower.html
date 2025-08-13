@@ -338,7 +338,7 @@ onload = () => {
   }, 1000);
 
   // ===== Lanjutkan musik dari index.html =====
-  const audio = new Audio("lagu.mp3"); // ganti sesuai file kamu
+  const audio = new Audio("audio/lagu.mp3"); // ganti sesuai file kamu
   audio.loop = true;
   audio.volume = 0.6;
   audio.currentTime = sessionStorage.getItem("musicTime") || 0;
